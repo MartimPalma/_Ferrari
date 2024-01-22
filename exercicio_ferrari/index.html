@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="xxxxxxx" name="author">
+    <meta content="xxxxxxxxxxx" name="keywords">
+    <meta content="xxxxxxxxxxxxxx" name="description">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- INTEGRAÇÃO DOS ÍCONES-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- estilos próprios -->
+    <link href="css/os_meus_estilos.css" rel="stylesheet">
+
+    <title>Scuderia Ferrari</title>
+</head>
+<body>
+
+<div class="alert alert-warning alert-dismissible fade show w-75 mx-auto">
+    <p class="text-dark small fw-bolder">Scuderia Ferrari uses cookies on its website to guarantee an excellent browsing experience to all of its users and to gather information regarding the use of the site itself. We use cookies, including those of third parties, to send personalised promotional messages. By continuing to browse the site, you are agreeing to our use of cookies.</p>
+    <p><a class="alert-link" href="#" data-bs-dismiss="alert">I agree</a></p>
+</div>
+
+
+
+<!-- ####################################################################### -->
+<header class="container-fluid">
+    <section class="row justify-content-between">
+        <article class="col-sm-auto">
+            <a href="http://www.ferrari.com"><img src="imgs/logo_ferraricom.png"></a>
+        </article>
+        <article class="col-sm-auto">
+            <p class="text-white lead retira_marg_inf">welcome to our passion
+                <button type="button" class="btn btn-danger py-0 px-2" data-bs-toggle="modal" data-bs-target="#janela">
+                    <i class="bi bi-box-arrow-in-right"></i>
+                </button>
+            </p>
+        </article>
+    </section>
+</header>
+
+<div class="modal fade" id="janela" data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-success">
+                <h5 class="modal-title text-white">Access Fan Zone</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form action="fanzone.html" method="post">
+                    <input class="form-control bg-white text-dark border border-danger mt-1" name="user"
+                           placeholder="Your User Name" type="text">
+                    <input class="form-control  bg-white text-dark border border-danger mt-1" name="pswd"
+                           placeholder="Your Password" type="password">
+                    <button class="btn btn-danger mt-1" type="submit">Go</button>
+                </form>
+            </div>
+            <div class="modal-footer bg-danger text-white">
+                <p class="fw-bolder">&copy; 2018 Scuderia Ferrari</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- ####################################################################### -->
+
+<nav class="navbar navbar-expand-sm bg-light sticky-top">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="index.html"><img src="imgs/logo-2018_small.png"></a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav2">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="car2018.html">SF71H</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown">PILOTS</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="vettel.html">Sebastian Vettel</a></li>
+                        <li><a class="dropdown-item" href="kimi.html">Kimi Räikkönen</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="history.html">HISTORY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="champions.html">CHAMPIONS</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<!-- ################################################################################################# -->
+
+<main class="container-fluid">
+
+    <!-- ################################################################################################# -->
+
+    <section class="row">
+
+        <article class="col-sm-4 col-xl-2 da_margem_superior retira_padding">
+            <img class="img-fluid" src="imgs/intheboxes.jpg">
+        </article>
+        <article class="col-sm-8 col-xl-2 da_margem_superior">
+            <p class="text-white fw-light">Scuderia Ferrari S.p.A. is the racing division of luxury Italian auto manufacturer, Ferrari, and the racing team that competes in Formula One racing. The team is also nicknamed "The Prancing Horse", with reference to their logo. It is the oldest surviving and most successful Formula One team, having competed in every world championship since the 1950 Formula One season.</p>
+        </article>
+
+        <article class="col-sm-4 col-xl-2 da_margem_superior retira_padding">
+            <img class="img-fluid" src="imgs/enzo.jpg">
+        </article>
+        <article class="col-sm-8 col-xl-2 da_margem_superior">
+            <p class="text-white fw-light">The team was founded by Enzo Ferrari, initially to race cars produced by Alfa Romeo, though by 1947 Ferrari had begun building its own cars. Among its important achievements outside Formula One are winning the World Sportscar Championship, 24 Hours of Le Mans, 24 Hours of Daytona, 12 Hours of Sebring, races for Grand tourer cars and racing on road courses of the Targa Florio, the Mille Miglia and the Carrera Panamericana.</p>
+        </article>
+
+        <article class="col-sm-4 col-xl-2 da_margem_superior retira_padding">
+            <img class="img-fluid" src="imgs/win.jpg">
+        </article>
+        <article class="col-sm-8 col-xl-2 da_margem_superior">
+            <p class="text-white fw-light">As a constructor, Ferrari has a record 16 Constructors' Championships, the last of which was won in 2008. Alberto Ascari, Juan Manuel Fangio, Mike Hawthorn, Phil Hill, John Surtees, Niki Lauda, Jody Scheckter, Michael Schumacher and Kimi Räikkönen have won a record 15 Drivers' Championships for the team. Since Räikkönen's title in 2007 the team narrowly lost out on the 2008 drivers' title with Felipe Massa and the 2010 and 2012 drivers' titles with Fernando Alonso.</p>
+        </article>
+
+    </section>
+
+    <!-- ################################################################################################# -->
+
+    <section class="row">
+        <article class="col-12">
+            <h2 class="text-white fw-light da_margem_superior">The Team</h2>
+        </article>
+    </section>
+
+    <!-- ################################################################################################# -->
+
+    <section class="row">
+        <article class="col-sm-3 col-lg-2 retira_padding">
+            <a href="vettel.html"><img  class="img-fluid" src="imgs/vettel2017.jpg"></a>
+        </article>
+        <article class="col-sm-3 col-lg-2 retira_padding">
+            <a href="kimi.html"><img  class="img-fluid" src="imgs/raikkonen2017.jpg"></a>
+        </article>
+        <article class="col-sm-3 col-lg-2 retira_padding">
+            <img  class="img-fluid" src="imgs/arrivabene2017.jpg">
+        </article>
+        <article class="col-sm-3 col-lg-2 retira_padding">
+            <img  class="img-fluid" src="imgs/binotto2017.jpg">
+        </article>
+    </section>
+
+    <!-- ################################################################################################# -->
+
+    <footer class="row bg-secondary">
+        <article class="col-12">
+            <p class="text-light small">SCUDERIA FERRARI F1</p>
+        </article>
+        <article class="col-sm-4 col-lg-2">
+            <p class="text-light small">SCUDERIA</p>
+            <p class="text-light small">Auto</p>
+            <p class="text-light small">Line Up</p>
+            <p class="text-light small">Configurator</p>
+            <a href="clients.html" class="text-light small">Clients</a>
+        </article>
+        <article class="col-sm-4 col-lg-2">
+            <p class="text-light small">Competizioni GT</p>
+            <p class="text-light small">Corse Clienti</p>
+            <p class="text-light small">Corso Pilota</p>
+            <p class="text-light small">Partners</p>
+            <p class="text-light small">Seasons</p>
+        </article>
+        <article class="col-sm-4 col-lg-2">
+            <p class="text-light small">Company</p>
+            <p class="text-light small">Ferrari Museum</p>
+            <p class="text-light small">Museo Casa Enzo Ferrari</p>
+            <p class="text-light small">Abu Dhabi Theme Park</p>
+            <p class="text-light small">Ferrari Land Barcelona</p>
+        </article>
+    </footer>
+
+    <!-- ################################################################################################# -->
+
+</main>
+
+<!--      FICHEIROS JAVASCRIPT-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+
+</html>

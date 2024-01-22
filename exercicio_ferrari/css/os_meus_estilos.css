@@ -1,0 +1,103 @@
+body {
+                        background-color: black;
+                        background-image: url("../imgs/fundo.jpg");
+                        background-repeat: no-repeat;
+                        background-position: top right;
+}
+
+
+
+.retira_marg_inf {
+    margin-bottom: 0;
+}
+.retira_padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+.retira_margin {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.da_margem_superior {
+    margin-top: 0.5rem;
+}
+.da_padding {
+    padding: 1rem;
+}
+
+nav {
+                        border-bottom: 0.1rem solid red;
+}
+
+
+
+
+footer {
+                        border-top: 0.1rem solid red;
+    margin-top: 2rem;
+}
+
+footer article {
+    margin-top: 1rem;
+}
+
+
+
+
+
+header {
+                            background-color: black;
+}
+
+
+.alturabarra {
+                            height: 2rem;
+}
+
+
+
+.valor20 {
+                            width: 20%;
+}
+.valor31 {
+                            width: 31%;
+}
+.valor15 {
+                            width: 15%;
+}
+
+.icons_pilots {
+                        width: 1.5rem;
+                        height: 1.5rem;
+}
+
+.valor45 {
+    width: 45%;
+}
+.valor49 {
+    width: 49%;
+}
+.valor35 {
+    width: 35%;
+}
+
+
+
+
+
+ul.carousel-indicators li {
+    height: 1.6rem;
+}
+
+.corfundoblack {
+    background-color: black;
+}
+
+input:focus, textarea:focus {
+    background-color: #ffffcc !important;
+}
+
+
+
+
